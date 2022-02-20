@@ -1,6 +1,6 @@
 import React from "react";
-import Image from "../components/image";
-import DefaultLayout from "../layouts/DefaultLayout";
+import Image from "@/components/image";
+import DefaultLayout from "@/layouts/DefaultLayout";
 
 const IndexPage = () => (
   <DefaultLayout>

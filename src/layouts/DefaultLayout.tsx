@@ -1,8 +1,8 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import HeaderComponent from "../components/Header/Header.component";
-import "../css/global.css";
-import SEO from "../components/seo";
+import HeaderComponent from "@/components/Header/Header.component";
+import SEO from "@/components/seo";
+import "@/assets/css/global.css";
 
 const DefaultLayout = ({ title = "Hi, I'm Thet Aung", children }: LayoutProps) => {
   const data = useStaticQuery(graphql`
